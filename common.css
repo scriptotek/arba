@@ -1,0 +1,79 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: Gulim, sans-serif;
+}
+h1 {
+    font-family: Gulim, sans-serif;
+    font-size: 18px;
+}
+div#header {
+    border-top: 2px solid #fc0;
+    border-bottom: 5px dotted #fc0;
+    padding: 10px 10px 10px 10px;
+    background: url(UiO_Segl_72dpi.png) no-repeat right top #ffffdd;
+}
+a:link, a:visited {
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+a.expand {
+    font-weight:bold;
+}
+#container {
+    width: 100%;
+    height: 100%;
+    display:none;
+}
+#parent {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#content {
+    display: table-cell;
+    vertical-align: middle;		   
+}
+#linje1 {
+    font-size: 100px;
+}
+#linje2 {
+    font-size: 150px;
+    margin: 80px;
+}
+#min-left {
+    border-bottom: 1px dotted white;
+}
+
+table.main {
+    margin: 20px;
+}
+
+td, th {
+    text-align: left;
+    padding: 4px 10px;
+}
+
+td.right, th.right {
+    text-align: right;
+}
+td.center, th.center {
+    text-align: center;
+}
+
+table.main th {
+    padding: 4px;
+    text-align: left;
+    background: #eee;
+}
+
+table.main .sum td {
+    background: #eee;
+}
+#enddate {
+    display: none;
+}
